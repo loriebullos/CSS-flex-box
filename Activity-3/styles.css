@@ -1,0 +1,42 @@
+header {
+    background-color: rgb(240, 227, 229);
+
+}
+.narrow-buttton {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.color-1 {
+    background-color: #fff;}
+.one {
+    color: blue;
+    display: flex;
+    justify-content: left;
+}
+.color-2 {
+    background-color: #fff;
+}
+.two {
+    color: blue;
+    display: flex;
+    justify-content: left;
+}
+.color-3 {
+    background-color: #fff;
+}
+.three {
+    color: blue;
+    display: flex;
+    justify-content: left;
+}
+.logo {
+    color: red;}
+.logo-1 {
+    background-color: #fff;
+}
+div {
+    background-color: rgb(240, 227, 229);
+
+}
