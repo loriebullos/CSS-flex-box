@@ -1,42 +1,54 @@
-header {
-    background-color: rgb(240, 227, 229);
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.narrow {
+  color: white;
+  background-color: black;
 }
-.narrow-buttton {
-    color: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.menu-container {
+  background-color: rgb(240, 227, 229);
+    display: flex; justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
 }
-.color-1 {
-    background-color: #fff;}
-.one {
-    color: blue;
-    display: flex;
-    justify-content: left;
-}
-.color-2 {
-    background-color: #fff;
-}
-.two {
-    color: blue;
-    display: flex;
-    justify-content: left;
-}
-.color-3 {
-    background-color: #fff;
-}
-.three {
-    color: blue;
-    display: flex;
-    justify-content: left;
+.one, .two, .three, .four, .five, .six {
+  color: blue;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 .logo {
-    color: red;}
-.logo-1 {
-    background-color: #fff;
+  color: red;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
-div {
-    background-color: rgb(240, 227, 229);
-
+.color-4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.wide {
+  color: white;
+  background-color: black;
+}
+.menu-container2 {
+  background-color: rgb(240, 227, 229);
+    display: flex; justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
+}
+.one-wide, .two-wide, .three-wide, .four-wide, .five-wide, .six-wide {
+  color: blue;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.logo-wide {
+  color: red;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
